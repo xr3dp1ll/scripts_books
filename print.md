@@ -8,6 +8,12 @@ age = 25
 # OUTPUT1: Print formatted string using .format() method to insert variables 'name' and 'age' into the string
 print("OUTPUT1: Name: {}, Age: {}".format(name, age))
 ```
+#### output:
+```
+OUTPUT1: Name: Alice, Age: 25
+```
+---
+
 ```python
 # OUTPUT2: Print formatted string using f-string (formatted string literals) to insert variables 'name' and 'age' into the string
 print(f"OUTPUT2: Name: {name}, Age: {age}")
