@@ -65,7 +65,17 @@ You can write multiple lines.
 print("OUTPUT6: Hello", end=" ")
 print("World")
 ```
+#### output:
+```
+OUTPUT6: Hello World
+```
+---
 ```python
 # OUTPUT7: Simple print statement showing a string "Hello, World!"
 print("OUTPUT6: Hello, World!")
 ```
+#### output:
+```
+OUTPUT7: Hello, World!
+```
+---
