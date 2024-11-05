@@ -24,7 +24,7 @@ print("OUTPUT4: Hello", "World", sep="-")
 ```
 ```
 # OUTPUT5: Print a multi-line string using triple quotes, which preserves line breaks
-print("""OUTPUT4:
+print("""OUTPUT5:
 This is a multi-line
 string in Python.
 You can write multiple lines.
@@ -32,7 +32,7 @@ You can write multiple lines.
 ```
 ```
 # OUTPUT6: Print "Hello" followed by a space and then "World" without a newline between them
-print("OUTPUT5: Hello", end=" ")
+print("OUTPUT6: Hello", end=" ")
 print("World")
 ```
 ```
