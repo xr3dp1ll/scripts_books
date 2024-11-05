@@ -18,6 +18,12 @@ OUTPUT1: Name: Alice, Age: 25
 # OUTPUT2: Print formatted string using f-string (formatted string literals) to insert variables 'name' and 'age' into the string
 print(f"OUTPUT2: Name: {name}, Age: {age}")
 ```
+#### output:
+```
+OUTPUT2: Name: Alice, Age: 25
+```
+
+
 ```python
 # Define a variable 'pi' with the value of Pi (approximate)
 pi = 3.14159
