@@ -52,6 +52,14 @@ string in Python.
 You can write multiple lines.
 """)
 ```
+#### output:
+```
+OUTPUT5:
+This is a multi-line
+string in Python.
+You can write multiple lines.
+```
+---
 ```python
 # OUTPUT6: Print "Hello" followed by a space and then "World" without a newline between them
 print("OUTPUT6: Hello", end=" ")
