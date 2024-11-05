@@ -39,6 +39,11 @@ OUTPUT3: Value of Pi to 2 decimal places: 3.14
 # OUTPUT4: Print "Hello-World" using a hyphen as the separator between the two strings
 print("OUTPUT4: Hello", "World", sep="-")
 ```
+#### output:
+```
+OUTPUT4: Hello-World
+```
+---
 ```python
 # OUTPUT5: Print a multi-line string using triple quotes, which preserves line breaks
 print("""OUTPUT5:
