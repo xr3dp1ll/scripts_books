@@ -5,8 +5,6 @@ Here are comments for each line of your code, explaining what each part does:
 name = "Alice"
 # Define a variable 'age' with the value 25
 age = 25
-```
-```
 # OUTPUT1: Print formatted string using .format() method to insert variables 'name' and 'age' into the string
 print("OUTPUT1: Name: {}, Age: {}".format(name, age))
 ```
