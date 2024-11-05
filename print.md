@@ -23,13 +23,18 @@ print(f"OUTPUT2: Name: {name}, Age: {age}")
 OUTPUT2: Name: Alice, Age: 25
 ```
 
-
+---
 ```python
 # Define a variable 'pi' with the value of Pi (approximate)
 pi = 3.14159
 # OUTPUT3: Print the value of 'pi' rounded to 2 decimal places using f-string formatting
 print(f"OUTPUT3: Value of Pi to 2 decimal places: {pi:.2f}")
 ```
+#### output:
+```
+OUTPUT3: Value of Pi to 2 decimal places: 3.14
+```
+---
 ```python
 # OUTPUT4: Print "Hello-World" using a hyphen as the separator between the two strings
 print("OUTPUT4: Hello", "World", sep="-")
