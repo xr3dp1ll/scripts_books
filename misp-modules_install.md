@@ -1,6 +1,6 @@
 # :rocket:  automat script install misp-module
 
-## install misp-modules & install misp-modules.service
+## Install misp-modules & install misp-modules.service
 ```bash
 sudo dhclient && ping google.com -w3 \
 && cd /var/www && sudo mkdir -p /var/www/.config && sudo chown -R www-data:www-data /var/www/.config \
@@ -27,7 +27,7 @@ WantedBy=multi-user.target
 EOF
 ```
 
-## enable service  & start & check status
+## Enable service  & start & check status
 ```bash
 sudo systemctl daemon-reexec 
 sudo systemctl daemon-reload
