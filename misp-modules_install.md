@@ -2,8 +2,7 @@
 
 ## Install misp-modules & install misp-modules.service
 ```bash
-sudo dhclient && ping google.com -w3 \
-&& cd /var/www && sudo mkdir -p /var/www/.config && sudo chown -R www-data:www-data /var/www/.config \
+cd /var/www && sudo mkdir -p /var/www/.config && sudo chown -R www-data:www-data /var/www/.config \
 && echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc \
 && sudo -u www-data virtualenv -p python3 /var/www/MISP/venv \
 && curl -sSL https://install.python-poetry.org | python3 - \
