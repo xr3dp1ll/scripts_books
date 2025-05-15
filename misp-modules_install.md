@@ -33,3 +33,5 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now misp-modules.service
 sleep 5 && sudo systemctl status misp-modules.service
 ```
+![image](https://github.com/user-attachments/assets/51a557ab-29a4-47bd-9e7a-aba9253e4407)
+
